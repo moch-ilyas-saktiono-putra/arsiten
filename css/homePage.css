@@ -1,0 +1,134 @@
+body {
+  font-family: "Inter", sans-serif;
+  margin: 0;
+}
+
+/* Narvbar */
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0 10em 0 10em;
+  align-items: center;
+  padding-top: 1.2em;
+  padding-bottom: 1.2em;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.navbar img {
+  width: auto;
+  height: 2.3em;
+}
+
+.options {
+  display: flex;
+  flex-direction: row;
+  gap: 2.5em;
+}
+
+.options a {
+  text-decoration: none;
+  color: #000000;
+  font-weight: 500;
+}
+.options a:hover {
+  text-decoration: none;
+  color: #7288ff;
+  font-weight: 500;
+}
+
+.blue-button {
+  background-color: #7888de;
+  color: #ffffff;
+  text-decoration: none;
+  padding: 8px 25px 8px 25px;
+  border-radius: 20px;
+}
+
+.white-button {
+  text-decoration: none;
+  color: #000000;
+  margin-left: 0.5em;
+}
+
+/* Banner */
+
+.banner {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.banner img {
+  width: 83%;
+  height: 350px;
+  object-fit: cover;
+  border-radius: 25px;
+}
+
+/* Descriptions */
+.description {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.description p {
+  text-align: center;
+  width: 70%;
+  margin-top: 25px;
+}
+
+.buttons a {
+  text-decoration: none;
+}
+
+/* buttons*/
+.buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.button-box {
+  justify-content: center;
+  text-align: center;
+}
+
+.options-button {
+  border: #7288ff solid 2px;
+  border-radius: 10px;
+}
+
+.options-button i {
+  font-size: 50px;
+  padding: 20px;
+  color: #7288ff;
+}
+
+.button-box {
+  width: 170px;
+}
+
+.button-box p {
+  margin-top: 10px;
+  color: #7288ff;
+  font-weight: 400;
+}
+
+/* Footer */
+.footer {
+  width: 100%;
+  text-align: center;
+  background-color: #7288ff;
+  position: fixed;
+  bottom: 0;
+}
+
+.footer p {
+  margin: 0px;
+  padding: 15px;
+  color: #ffffff;
+}
