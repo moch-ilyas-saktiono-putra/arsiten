@@ -53,10 +53,10 @@ body {
 
 /* Footer */
 .footer {
+  margin-top: 50px;
   width: 100%;
   text-align: center;
   background-color: #7288ff;
-  position: fixed;
   bottom: 0;
 }
 
@@ -177,11 +177,10 @@ body {
   font-size: 11px;
 }
 
-
 .for-line hr {
-    border: #e9e9e9 solid 0.5px;
+  border: #e9e9e9 solid 0.5px;
 }
 
 .for-line {
-    width: 90%;
+  width: 90%;
 }
