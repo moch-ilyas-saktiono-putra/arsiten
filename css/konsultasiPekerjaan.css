@@ -1,0 +1,236 @@
+body {
+  font-family: "Inter", sans-serif;
+  margin: 0;
+}
+
+/* Narvbar */
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0 10em 0 10em;
+  align-items: center;
+  padding-top: 1.2em;
+  padding-bottom: 1.2em;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.navbar img {
+  width: auto;
+  height: 2.3em;
+}
+
+.options {
+  display: flex;
+  flex-direction: row;
+  gap: 2.5em;
+}
+
+.options a {
+  text-decoration: none;
+  color: #000000;
+  font-weight: 500;
+}
+.options a:hover {
+  text-decoration: none;
+  color: #7288ff;
+  font-weight: 500;
+}
+
+.blue-button {
+  background-color: #7888de;
+  color: #ffffff;
+  text-decoration: none;
+  padding: 8px 25px 8px 25px;
+  border-radius: 20px;
+}
+
+.white-button {
+  text-decoration: none;
+  color: #000000;
+  margin-left: 0.5em;
+}
+
+/* Footer */
+.footer {
+  width: 100%;
+  text-align: center;
+  background-color: #7288ff;
+  position: fixed;
+  bottom: 0;
+}
+
+.footer p {
+  margin: 0px;
+  padding: 15px;
+  color: #ffffff;
+}
+
+/* Container */
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+/* Content */
+.content {
+  display: flex;
+  flex-direction: column;
+}
+
+.search {
+  display: flex;
+  margin-bottom: 20px;
+  align-items: center;
+}
+
+.search input {
+  width: 40em;
+  border-radius: 20px;
+  padding: 2.5px 15px 2.5px 15px;
+  border: #d9d9d9 solid 1.2px;
+}
+
+.search input:focus {
+  outline: none;
+}
+
+.search a {
+  background-color: #7288ff;
+  padding: 1px 15px 1px 15px;
+  text-decoration: none;
+  color: #ffffff;
+  border-radius: 15px;
+}
+
+/* Job detail */
+.inside-job {
+  display: flex;
+  flex-direction: row;
+}
+
+.image-job img {
+  width: 110px;
+  height: 110px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.job-detail {
+    margin-left: 20px;
+}
+
+.job-detail h2 {
+  margin: 0;
+}
+
+.job-detail h4 {
+  margin: 0;
+  margin-bottom: 5px;
+}
+
+.job-detail p {
+  margin: 0;
+  font-weight: bold;
+  font-style: italic;
+  font-weight: 300;
+  font-size: 14px;
+}
+
+.job-type {
+  display: flex;
+  align-items: center;
+  margin-bottom: 25px;
+}
+
+.job-type p {
+  margin-left: 10px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 11px;
+  color: green;
+}
+
+.job-type i {
+  font-size: 11px;
+}
+
+.for-line hr {
+  border: #e9e9e9 solid 0.5px;
+}
+
+.for-line {
+  width: 86%;
+}
+
+/* Chat bot */
+.chat-box {
+  display: flex;
+  flex-direction: column;
+  border: #e9e9e9 solid 0.5px;
+  width: 20em;
+  height: 30em;
+  margin-left: 2em;
+  border-radius: 20px;
+}
+
+.chat-box img {
+  height: 40px;
+  width: 40px;
+  object-fit: cover;
+  border-radius: 40px;
+  margin-left: 10px;
+  margin-right: 20px;
+}
+
+.profile-bar {
+  background-color: #7288ff;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: #ffffff;
+  border-radius: 20px 20px 0 0;
+  padding: 14px;
+}
+
+.profile-bar h4 {
+  margin: 0px;
+}
+
+.chat-content {
+  flex-grow: 1;
+  overflow-y: auto;
+  padding: 10px;
+}
+
+.message {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  background-color: #7288ff;
+  border-radius: 0 0 20px 20px;
+}
+
+.message input {
+  width: 75%;
+  padding: 5px;
+  border-radius: 10px;
+  border: none;
+}
+
+.message input:focus {
+  outline: none;
+}
+
+.message button {
+  width: 15%;
+  margin-left: 3px;
+  height: 100%;
+  font: inherit;
+  border: none;
+  border-radius: 10px;
+  color: #7288ff;
+}
